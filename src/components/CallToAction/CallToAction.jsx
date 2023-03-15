@@ -32,9 +32,9 @@ function CallToAction() {
     console.log('userInfo', userInfo);
     e.preventDefault();
     if (userInfo.email && !errors.email) {
-      return alert('enviado con exito');
+      return alert('Suscripción realizada con exito');
     } else {
-      return alert('revisa tu email');
+      return alert('Ups! Revisa que tu email esté bien escrito');
     }
   };
 

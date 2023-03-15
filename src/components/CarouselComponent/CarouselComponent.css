@@ -29,8 +29,9 @@
   color: var(--text-color-white);
   width: 50vw;
   text-align: center;
-  text-shadow: 2px 2px rgb(141, 141, 141);
-  font-family: 'Roboto', sans-serif;
+  text-shadow: 2px 2px rgb(109, 109, 109);
+  font-family: 'Signika Negative', sans-serif;
+  font-weight: 300;
 }
 .carouselCentro button {
   position: absolute;

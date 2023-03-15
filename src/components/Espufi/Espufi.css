@@ -3,7 +3,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  min-height: 100vh;
 }
 .espufi p {
   letter-spacing: 0.2em;
@@ -18,18 +18,19 @@
   font-weight: 400;
 }
 .contenedorImg {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1px;
+  /* display: flex;
   justify-content: center;
-  flex-wrap: wrap;
-  width: 45%;
-  /* height: 80vh; */
+  flex-wrap: wrap; */
   overflow: hidden;
   margin-bottom: 8vh;
 }
 .contenedorImg > img {
-  width: 200px;
-  height: 200px;
-  margin: 1px;
+  width: 15vw;
+  height: 15vw;
+  /* margin: 1px; */
   transition: 0.4s;
   object-fit: cover;
 }
