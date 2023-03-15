@@ -1,0 +1,52 @@
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4vh 5vh 1vh 5vh;
+  background: linear-gradient(rgb(29, 29, 29), rgba(255, 255, 255, 0));
+  color: var(--text-color-white);
+}
+.navBar a {
+  text-decoration: none;
+  color: var(--text-color-white);
+}
+.navBar a h1 {
+  font-size: 40px;
+  padding-right: 20vh;
+}
+.navBar nav a {
+  text-decoration: none;
+  color: var(--text-color-white);
+  padding: 1vh 2vh;
+  transition: 0.4s;
+}
+.navBar nav a:hover {
+  cursor: pointer;
+  color: var(--text-color-black);
+  /* background-color: rgba(141, 141, 141, 0.514); */
+}
+
+#lineaCentral {
+  border-left: 0.1px solid rgba(255, 255, 255, 0.514);
+}
+.divBotones {
+  display: flex;
+}
+.divBotones button {
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  color: var(--text-color-white);
+  border: none;
+  padding: 1vh 2vh;
+  /* height: 4vh; */
+  transition: 0.4s;
+}
+.divBotones button:hover {
+  cursor: pointer;
+  color: var(--text-color-black);
+}
+
+.divBotones button i {
+  font-size: 20px;
+}

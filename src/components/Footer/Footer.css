@@ -1,0 +1,91 @@
+.contenedorFooter {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0 5px 5px rgba(196, 196, 196, 0.486);
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 3vh;
+}
+.footer > h2 {
+  font-size: 40px;
+}
+.footer ol li {
+  list-style-type: none;
+  padding: 0.5vh 2vh;
+}
+.footer ol a {
+  text-decoration: none;
+  color: var(--text-color-black);
+  font-size: 14px;
+  font-weight: bold;
+}
+.compraSegura {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 10vw;
+}
+.compraSegura p {
+  text-align: start;
+  padding: 0 0 2vh 0;
+  color: var(--text-color-black);
+  font-size: 14px;
+  font-weight: bold;
+}
+.garantia {
+  display: flex;
+  align-items: center;
+}
+.garantia p {
+  color: rgb(88, 88, 88);
+  font-size: 12px;
+  text-align: start;
+  padding: 0;
+}
+.garantia i {
+  font-size: 2rem;
+}
+.seguinos {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.seguinos > p {
+  width: 10vw;
+  padding: 1vh 0 0 0;
+  color: var(--text-color-black);
+  font-size: 14px;
+  font-weight: bold;
+  text-align: end;
+}
+.seguinos a {
+  text-decoration: none;
+  font-size: 14px;
+}
+.seguinos i {
+  color: var(--text-color-black);
+  font-size: 2rem;
+}
+
+.derechosReservados {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 5vh;
+}
+.derechosReservados > hr {
+  display: flex;
+  justify-content: center;
+  width: 97%;
+  height: 1px;
+  /* background-color: rgba(141, 141, 141, 0.514); */
+  border-top: 1px solid #ccc;
+}
+.derechosReservados > p {
+  width: 100%;
+  padding: 5px 3vh;
+  text-align: start;
+  color: rgb(141, 141, 141);
+}

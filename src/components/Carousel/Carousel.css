@@ -1,0 +1,38 @@
+.carousel {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-image: url(../../assets/pexels-pixabay-33622.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.carouselCentro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.carouselCentro h2 {
+  font-size: 3rem;
+  color: var(--text-color-white);
+  width: 40vw;
+  text-align: center;
+}
+.carouselCentro button {
+  position: absolute;
+  top: 70%;
+  left: 45%;
+  padding: 3vh 6vh;
+  background-color: transparent;
+  border: 3px solid var(--text-color-white);
+  color: var(--text-color-white);
+  letter-spacing: 0.25em;
+  font-weight: bold;
+  /* transform: all 0.45s ease-in; */
+  transition: 0.4s;
+}
+.carouselCentro button:hover {
+  cursor: pointer;
+  color: var(--text-color-black);
+  background-color: rgba(141, 141, 141, 0.514);
+}

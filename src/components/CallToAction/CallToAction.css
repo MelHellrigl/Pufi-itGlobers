@@ -1,0 +1,51 @@
+.callToAction {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20vh;
+}
+.newsletter {
+  letter-spacing: 0.2em;
+  font-size: 0.8rem;
+  color: rgb(88, 88, 88);
+}
+.callToAction h2 {
+  letter-spacing: 0.1em;
+  font-size: 2.5rem;
+}
+.callToAction p {
+  color: var(--text-color-black);
+  font-size: 1rem;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  width: 100%;
+}
+.inputNewsletter {
+  display: flex;
+  align-items: center;
+  border: 0.1px solid rgb(141, 141, 141);
+  width: 40%;
+  padding: 2vh 3vh;
+  transition: 0.4s;
+}
+.inputNewsletter input {
+  width: 95%;
+  border: none;
+  outline: 0 none;
+}
+.inputNewsletter button {
+  border: none;
+  background-color: transparent;
+  transition: 0.4s;
+}
+.inputNewsletter button:hover {
+  cursor: pointer;
+}
+.inputNewsletter button i {
+  font-size: 1.5rem;
+}
+.inputNewsletter button i:hover {
+  cursor: pointer;
+  font-weight: bold;
+}

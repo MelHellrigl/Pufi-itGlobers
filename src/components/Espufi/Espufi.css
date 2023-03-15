@@ -1,0 +1,36 @@
+.espufi {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.espufi p {
+  letter-spacing: 0.2em;
+  font-size: 0.8rem;
+  color: rgb(88, 88, 88);
+}
+.espufi h2 {
+  letter-spacing: 0.1em;
+  font-size: 2.5rem;
+  margin-bottom: 8vh;
+}
+.contenedorImg {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 50%;
+  /* height: 80vh; */
+  overflow: hidden;
+  margin-bottom: 8vh;
+}
+.contenedorImg > img {
+  width: 200px;
+  height: 200px;
+  margin: 1px;
+  transition: 0.4s;
+}
+.contenedorImg > img:hover {
+  cursor: pointer;
+  filter: saturate(50%) opacity(90%);
+}
