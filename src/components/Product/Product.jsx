@@ -19,6 +19,7 @@ function Product() {
                   <img src={el.image} alt='imagen' />
                 </div>
                 <div className='productoDer'>
+                  <img src={el.icono} alt='icono' />
                   <h2>{el.name}</h2>
                   <hr />
                   <p>Descripción del producto. Este es un texto simulado</p>
