@@ -1,6 +1,6 @@
 import './App.css';
 import NavBar from './components/NavBar/NavBar.jsx';
-import Carousel from './components/Carousel/Carousel';
+import CarouselComponent from './components/CarouselComponent/CarouselComponent';
 import Product from './components/Product/Product';
 import Espufi from './components/Espufi/Espufi';
 import CallToAction from './components/CallToAction/CallToAction';
@@ -13,7 +13,7 @@ function App() {
         <NavBar />
       </header>
       <main>
-        <Carousel />
+        <CarouselComponent />
         <Product />
         <Espufi />
         <CallToAction />

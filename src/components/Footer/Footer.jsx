@@ -1,11 +1,14 @@
 import React from 'react';
 import './Footer.css';
+import logo from '../../assets/logoPufiNegro.png';
 
 function Footer() {
   return (
     <div className='contenedorFooter'>
       <div className='footer'>
-        <h2>Pufi</h2>
+        <div>
+          <img src={logo} alt='logo' />
+        </div>
         <ol>
           <li>
             <a href='#productoRAIN'>PUFI RAIN</a>

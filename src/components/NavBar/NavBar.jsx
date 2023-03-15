@@ -1,22 +1,41 @@
 import React from 'react';
 import './NavBar.css';
+import logo from '../../assets/logoPufi.png';
+import puff from '../../assets/puffIcono.png';
+import paraguas from '../../assets/paraguasIcono.png';
+import cart from '../../assets/cartIcono.png';
+import nap from '../../assets/napIcono.png';
 
 function NavBar() {
   return (
     <div className='navBar'>
       <a href='/#'>
-        <h1>Pufi</h1>
+        <img src={logo} alt='logoPufi' />
       </a>
       <nav>
-        <a href='#productoPUFF'>PUFI PUFF</a>
-        <a href='#productoRAIN' id='lineaCentral'>
-          PUFI RAIN
+        <a href='#0'>
+          <div className='iconos'>
+            <img src={puff} alt='puff' />
+            PUFI PUFF
+          </div>
         </a>
-        <a href='#productoCART' id='lineaCentral'>
-          PUFI CART
+        <a href='#1' id='lineaCentral'>
+          <div className='iconos'>
+            <img src={paraguas} alt='paraguas' />
+            PUFI RAIN
+          </div>
         </a>
-        <a href='#productoNAP' id='lineaCentral'>
-          PUFI NAP
+        <a href='#2' id='lineaCentral'>
+          <div className='iconos'>
+            <img src={cart} alt='cart' />
+            PUFI CART
+          </div>
+        </a>
+        <a href='#3' id='lineaCentral'>
+          <div className='iconos'>
+            <img src={nap} alt='nap' />
+            PUFI NAP
+          </div>
         </a>
       </nav>
       <div className='divBotones'>
