@@ -13,13 +13,13 @@ function NavBar() {
         <img src={logo} alt='logoPufi' />
       </a>
       <nav>
-        <a href='#0'>
+        <a href='#1'>
           <div className='iconos'>
             <img src={puff} alt='puff' />
             PUFI PUFF
           </div>
         </a>
-        <a href='#1' id='lineaCentral'>
+        <a href='#0' id='lineaCentral'>
           <div className='iconos'>
             <img src={paraguas} alt='paraguas' />
             PUFI RAIN
